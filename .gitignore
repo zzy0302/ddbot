@@ -1,0 +1,8 @@
+__pycache__/
+/ps1/
+app/__pycache__/
+app/back_end.py
+app/front_end.py
+app/get_ip.py
+app/git_bash.py
+app/mysql.py
