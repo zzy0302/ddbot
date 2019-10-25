@@ -46,7 +46,7 @@
 
 描述：
 
-​		传入楼宇房间号信息，返回时间戳+剩余电量（具体爬虫代码可以看历史commit，现后端为历史commit结合[Chromepool](https://github.com/zzy0302/Chroomepool)完成，后端服务不在此项目文件内）
+​		传入楼宇房间号信息，返回时间戳+剩余电量（具体爬虫代码可以看历史commit，现后端为历史commit结合[Chromepool](https://github.com/zzy0302/Chromepool)完成，后端服务不在此项目文件内）
 
 ​		使用redis缓存保存3分钟内查询过的房间，调用量目前没有限制
 
