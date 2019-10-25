@@ -68,9 +68,9 @@
 
 - 举例：
 
-  - 带时间戳：![image-20191025170706504](https://github.com/zzy0302/ddbot/img/image-20191025170706504.png)
+  - 带时间戳：![image-20191025170706504](https://github.com/zzy0302/ddbot/blob/master/img/image-20191025170706504.png)
 
     
 
-  - 不带时间戳：![image-20191025170541342](https://github.com/zzy0302/ddbot/img/image-20191025170541342.png)
+  - 不带时间戳：![image-20191025170541342](https://github.com/zzy0302/ddbot/blob/master/img/image-20191025170541342.png )
 
