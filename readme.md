@@ -1,8 +1,8 @@
-## bddbot
+## ddbot
 
 ### 功能
 
-- 查电费 - （此处有API接口，可看[下方详情](###API)）
+- 查电费 - （此处有API接口，可看[下方详情](#API)）
 
   - 私聊查询
 
@@ -12,7 +12,7 @@
 
     @bot +私聊内容即可（**一定要是@，复制无效**）
 
-- 查百度 - （来自**[teac-your-baidu](https://github.com/luchenqun/teach-you-baidu)**）
+- 查百度 - （来自[teac-your-baidu](https://github.com/luchenqun/teach-you-baidu)）
 
   - 私聊查询
 
@@ -68,7 +68,7 @@
 
 - 举例：
 
-  - 带时间戳：![image-20191025170706504](https://github.com/zzy0302/ddbot/blob/master/img/image-20191025170706504.png)
+  - 带时间戳：![image-20191025170706504]( https://github.com/zzy0302/ddbot/blob/master/img/image-20191025170706504.png )
 
     
 
