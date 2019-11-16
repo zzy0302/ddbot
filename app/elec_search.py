@@ -26,13 +26,13 @@ async def _(session: CommandSession):
             session.state['S'] = stripped_arg
         return
 
-    if not stripped_arg:
-        # 用户没有发送有效的城市名称（而是发送了空白字符），则提示重新输入
-        # 这里 session.pause() 将会发送消息并暂停当前会话（该行后面的代码不会被运行）
-        session.pause('要查询的寝室不能为空呢，请重新输入')
+    # if not stripped_arg:
+    #     # 用户没有发送有效的城市名称（而是发送了空白字符），则提示重新输入
+    #     # 这里 session.pause() 将会发送消息并暂停当前会话（该行后面的代码不会被运行）
+    #     session.pause('要查询的寝室不能为空呢，请重新输入')
 
-    # 如果当前正在向用户询问更多信息（例如本例中的要查询的城市），且用户输入有效，则放入会话状态
-    session.state[session.current_key] = stripped_arg
+    # # 如果当前正在向用户询问更多信息（例如本例中的要查询的城市），且用户输入有效，则放入会话状态
+    # session.state[session.current_key] = stripped_arg
 
 
 async def elec(S: str, qq) -> str:
