@@ -5,7 +5,7 @@ from collections import defaultdict
 from nonebot import on_command, CommandSession
 
 
-@on_command('Elec', aliases=('电费', '电量', '查电费', '查电量', '剩余电量', '剩余电费', '我要查电费'))
+@on_command('Elec', aliases=('电费', '电量', '查电费', '查电量', '剩余电量', '剩余电费', '我要查电费'), only_to_me=False)
 async def elec(session: CommandSession):
     S = session.get('S')
     elec_report = await elec(S, session.ctx['user_id'])
